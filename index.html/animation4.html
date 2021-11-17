@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta charset="utf-8">
+<style>
+p {
+	animation-name:  slidein,bigsmall;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+  25% {
+	margin-left: 75%; }
+  50% {
+	margin-left: 50%; }
+  75% {
+	margin-left: 25%; }
+  to {
+    margin-left: 0%; }
+}
+@keyframes bigsmall {
+  from { 
+	  transform: scale(1); }
+  25% { 
+	  transform: scale(1.5); }
+  50% { 
+	  transform: scale(1); }
+  75% { 
+	  transform: scale(1.5); }
+  to { 
+	  transform: scale(1); }
+}
+  </style>
+<title>タイトル</title>
+
+	</head>
+	<body>
+		<h1>見出し</h1>
+
+			<p>Hello,World!</p>
+	</body>
+</html>
